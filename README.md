@@ -18,37 +18,37 @@ After you clone this project, do the following:
 bash
 
 ```
-# go into the project
+## go into the project
 
 ```
 cd video-chat-example
 ```
 
-# create a .env file
+## create a .env file
 
 ```
 cp .env.example .env
 ```
 
-# install composer dependencies
+## install composer dependencies
 
 ```
 composer update
 ```
 
-# install npm dependencies
+## install npm dependencies
 
 ```
 npm install
 ```
 
-# generate a key for your application
+## generate a key for your application
 
 ```
 php artisan key:generate
 ```
 
-# create a file for your SQLite database
+## create a file for your SQLite database
 
 ```
 touch database/database.sqlite
@@ -56,7 +56,7 @@ touch database/database.sqlite
 
 if you want to use sqllite
 
-# mrun the migration files to generate the schema
+## run the migration files to generate the schema
 
 ```
 php artisan migrate
@@ -79,7 +79,7 @@ DB_CONNECTION=sqlite
 
 ```
 
-# run webpack and watch for changes
+## run webpack and watch for changes
 ```
 npm run watch
 ```
