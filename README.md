@@ -36,6 +36,21 @@ touch database/database.sqlite
 # mrun the migration files to generate the schema
 php artisan migrate
 
+
+env file like this:
+
+DB_CONNECTION=sqlite
+
+\#DB_HOST=127.0.0.1
+
+\#DB_PORT=3306
+
+\#DB_DATABASE=database
+
+\#DB_USERNAME=homestead
+
+\#DB_PASSWORD=secret
+
 # run webpack and watch for changes
 npm run watch
 ```
