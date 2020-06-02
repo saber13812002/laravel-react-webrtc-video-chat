@@ -33,26 +33,28 @@ php artisan key:generate
 # create a file for your SQLite database
 touch database/database.sqlite
 
+if you want to use sqllite
+
 # mrun the migration files to generate the schema
 php artisan migrate
 
 
-env file like this:
+if use sql lite your env file DB block should look like this:
 
 DB_CONNECTION=sqlite
 
-\#DB_HOST=127.0.0.1
+/#DB_HOST=127.0.0.1
 
-\#DB_PORT=3306
+/#DB_PORT=3306
 
-\#DB_DATABASE=database
+/#DB_DATABASE=database
 
-\#DB_USERNAME=homestead
+/#DB_USERNAME=homestead
 
-\#DB_PASSWORD=secret
+/#DB_PASSWORD=secret
 
 # run webpack and watch for changes
 npm run watch
 ```
 
-Good Luck :)
+enjoy & Good Luck :)
